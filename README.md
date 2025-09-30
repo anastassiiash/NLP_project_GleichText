@@ -2,6 +2,7 @@ This repository contains a prototype system for detecting gender bias in German 
 It is based on two models:
 
 =>BERT classifier (fine-tuned to detect bias, named 'german_bert_finetuned')
+
 =>mBART generator (fine-tuned to rewrite biased sentences, named 'biased2neutral_mbart_final') 
 
 #This project uses the following Python libraries:
